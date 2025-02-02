@@ -1,0 +1,106 @@
+.Combatant {
+  width: 67px;
+  height: 30px;
+  background: url("/images/ui/combatant-plate.png") no-repeat no-repeat; /*the hud bg */
+  position: absolute;
+}
+
+.Battle .Combatant {
+  transform: scale(2);
+  transition: opacity 0.4s;
+}
+.Battle .Combatant[data-active="false"] {
+  opacity: 0;
+}
+.Battle .Combatant[data-active="true"] {
+  opacity: 1;
+}
+
+.Combatant[data-team="player"] {
+  left: 60px;
+  top: 30px;
+}
+.Combatant[data-team="enemy"] {
+  right: 50px;
+  top: 30px;
+}
+
+.Combatant_character_crop {
+  position: absolute;
+  bottom: 1px;
+  left: 3px;
+  width: 22px;
+  height: 12px;
+  overflow: hidden;
+}
+.Combatant_character {
+  display: block;
+  position: absolute;
+  left: -11px;
+  bottom: -7px;
+}
+.Battle .Combatant_character_crop {
+  display: none;
+}
+
+
+.Combatant_life-container {
+  position: absolute;
+  left: 16px;
+  top: 6px;
+  width: 26px;
+  height: 3.1px;
+}
+
+.Combatant_life-container > rect {
+  transition: width 0.2s;
+}
+
+
+
+/*this is just opacity 0, not gone, dont forget dumbass*/
+.Combatant_level {
+  opacity: 0;
+  position: absolute;
+  font-size: 12px;
+  right: 2px;
+  top: -1px;
+  width: 17px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #383838;
+  border: 1px solid #a48465;
+  margin: 0;
+}
+
+.Fighter {
+  position: absolute;
+  transform: scale(2);
+  transition: opacity 0.4s, transform 0.4s;
+}
+
+.Fighter[data-team="player"] {
+  bottom: 46px;
+  left: 51px;
+  height: 89px;
+  width: 75px;
+}
+
+.Fighter[data-team="enemy"] {
+  bottom: 90px;
+  right: 70px;
+  height: 44px;
+  width: 40px;
+}
+
+.Fighter[data-active="false"] {
+  opacity: 0;
+  transform: translate3d(0, 16px, 0) scale(2);
+}
+
+.Fighter[data-active="true"] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(2);
+}

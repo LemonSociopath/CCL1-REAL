@@ -1,0 +1,21 @@
+.Battle {
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-image: url(/images/maps/battlebg.png);
+  background-size: cover;
+}
+
+
+/* Animations */
+@keyframes battle-damage-blink {
+  to {
+    visibility: hidden; 
+  } 
+}
+.battle-damage-blink {
+  animation: battle-damage-blink 0.3s steps(2, start) infinite;
+}
+

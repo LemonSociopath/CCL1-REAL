@@ -1,0 +1,55 @@
+.TextMessage-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-end; /* Align items to the right */
+}
+
+.Speaker {
+  width: 100px;
+  height: 115px;
+}
+
+.TextMessage {
+  width: 100%;
+  height: 36px;
+  background: var(--menu-background);
+  border-top: 1px solid var(--menu-border-color);
+  color: var(--menu-font-color);
+  display: flex;
+  align-items: center;
+}
+
+.TextMessage_p {
+  margin: 0;
+  font-size: 12px;
+  margin-left: 8px;
+  flex-grow: 1; /* Allow the text to take up space */
+}
+
+.TextMessage-container span {
+  opacity: 0;
+}
+
+.TextMessage-container span.revealed {
+  opacity: 1;
+}
+
+.TextMessage_button {
+  margin: 0;
+  font-size: 9px;
+  padding: 0;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  font-family: inherit;
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+}
