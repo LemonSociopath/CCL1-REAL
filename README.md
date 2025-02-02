@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 **Play the Game**
-[Click here to play the game!](https://your-github-username.github.io/repository-name)
+[Click here to play the game!](https://lemonsociopath.github.io/CCL1-REAL/)
 
 ---
 
@@ -32,16 +32,28 @@ Below are the sprites used to create characters and objects in the game:
 
 ### Player Character:
 <div style="text-align: center;">
-  <img src="playersheet.png" alt="Player Spritesheet" width="500">
-  <p>*Figure 3: Player character animations.*</p>
+  <img src="./images/characters/people/hero.png" alt="Player Spritesheet" width="500">
+  <p>Sprite Sheet</p>
+  <img src="./images/characters/people/protag.png" alt="Player Spritesheet" width="500">
+  <p>Battle Illustration</p>
 </div>
 
 ---
 
 ### Enemies and NPCs:
 <div style="text-align: center;">
-  <img src="enemysheet.png" alt="Enemy Spritesheet" width="500">
-  <p>*Figure 4: Enemy animations.*</p>
+  <img src="./images/characters/people/host.png" alt="Enemy Spritesheet" width="500">
+  <p>Spritesheet for the 'host' npc</p>
+</div>
+<div style="text-align: center;">
+  <img src="./images/characters/people/hostsmile.png" alt="Enemy Spritesheet" width="500">
+  <img src="./images/characters/people/hostexcited.png" alt="Enemy Spritesheet" width="500">
+  <img src="./images/characters/people/hostsad.png" alt="Enemy Spritesheet" width="500">
+  <p>Different expressions for the host while talking</p>
+</div>
+<div style="text-align: center;">
+  <img src="./images/characters/people/npc.png" alt="Enemy Spritesheet" width="500">
+  <p>Spritesheet for the overworld npc's</p>
 </div>
 
 ---
