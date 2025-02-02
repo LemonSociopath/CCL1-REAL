@@ -55,19 +55,28 @@ Below are the sprites used to create characters and objects in the game:
   <img src="./images/characters/people/npc.png" alt="Enemy Spritesheet" width="500">
   <p>Spritesheet for the overworld npc's</p>
 </div>
+<div style="text-align: center;">
+  <img src="./images/characters/people/sami.png" alt="Enemy Spritesheet" width="500">
+   <img src="./images/characters/people/girlSoft.png" alt="Enemy Spritesheet" width="500">
+    <img src="./images/characters/people/girlSharp.png" alt="Enemy Spritesheet" width="500">
+     <img src="./images/characters/people/flower.png" alt="Enemy Spritesheet" width="500">
+      <img src="./images/characters/people/creature.png" alt="Enemy Spritesheet" width="500">
+       <img src="./images/characters/people/him.png" alt="Enemy Spritesheet" width="500">
+  <p>NPC battle/speech Illustrations</p>
+</div>
 
 ---
 
 ## ✍️ **Reflection**
 
 ### What went well:
-- **Creative Design:** The theme and style came together seamlessly, and the sprites were fun to design.
-- **Core Mechanics:** The gravity-based gameplay worked better than expected and provided a unique challenge.
+- **Plans vs Reality:** I managed to complete basically everything I wanted out of my game.
+- **Core Mechanics:** I was able to implement far more thanexpected, both in terms of status effects during battle and adding dialogue after certain accomplishamnts from the player.
 
 ### Challenges:
-- **Time Constraints:** Implementing all the features we envisioned wasn’t possible due to the limited timeframe.
-- **Bug Fixes:** Handling collisions and edge cases for gravity mechanics was tricky.
+- **Pressure:** Both too much and not enough pressure. First week I was able to motivate myself to work nonstop, only to burn out in the second and spend 12+ hours sleeping most days since my mind couldn't handle it. Only on the final 48 hours I felt the dealine was harsh enough again that I managed to force myself out of bed.
+- **Visual Fixes:** I had some issue with placement of elemens in the battle system, which I expected to be easy so I got more annoyed by it than I should have.
 
 ### Lessons Learned:
-- **Prototyping Matters:** Testing early prototypes helped refine the core mechanics quickly.
+- **When under pressure, don't stand out:** Don't try to stand out because I suffered and couldn't ask peers for help since they had a completely different code.
 - **Keep it Simple:** Focusing on one unique mechanic instead of multiple features made the game more polished.
