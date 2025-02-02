@@ -79,4 +79,4 @@ Below are the sprites used to create characters and objects in the game:
 
 ### Lessons Learned:
 - **When under pressure, don't stand out:** Don't try to stand out because I suffered and couldn't ask peers for help since they had a completely different code.
-- **Keep it Simple:** Focusing on one unique mechanic instead of multiple features made the game more polished.
+- **Give yourself rewards:** Celebrating small accomplishments could have helped my mental state.
